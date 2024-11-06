@@ -1,19 +1,7 @@
 <?php
-
-
-class Landing{
-
-    public function main(){
-        echo "Soy la funcion main (Prinicpal) del Controlador Landing";
+    class Landing{        
+        public function main(){
+            require_once "views/company/index.view.php";            
+        }
     }
-    }
-
-   
-
-
-
-
-
-
-
 ?>

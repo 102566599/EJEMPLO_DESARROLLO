@@ -6,9 +6,9 @@
     <title>Panel de Control </title>
     <!-- Estilos -->
     <!-- <link rel="shortcut icon" href="img/css.png"> -->
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">    
+    <link rel="stylesheet" href="assets/dashboard/css/all.css">
+    <link rel="stylesheet" href="assets/dashboard/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/dashboard/css/styles.css">    
 </head>
 <body>    
     <!-- Contenedor -->
@@ -33,7 +33,7 @@
             </aside>
             <!-- Área Principal -->
             <main class="col-9 border">
-                <iframe name="area_trabajo" src="modules/main/main.html"></iframe>
+                <h1>Main Principal Admin</h1>
             </main>
             <!-- Pie de Página -->
         </section>
@@ -44,7 +44,7 @@
         </footer>
     </div>    
     <!-- Scripts -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="assets/dashboard/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dashboard/js/scripts.js"></script>
 </body>
 </html>

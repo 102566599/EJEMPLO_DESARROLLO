@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empresa</title>
     <!-- Estilos -->
-    <link rel="shortcut icon" href="img/css.png">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="assets/landing/img/css.png">
+    <link rel="stylesheet" href="assets/landing/css/all.css">
+    <link rel="stylesheet" href="assets/landing/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/landing/css/styles.css">
     
 </head>
 <body>    
@@ -24,7 +24,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="" method="POST">
+                  <form action="Login.php" method="POST">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -38,7 +38,7 @@
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Check me out</label>
                     </div>
-                    <a href="../dashboard/index.html" class="btn btn-primary">Submit</a>
+                    <button type="submit" class="btn btn-primary">Submit</a>
                   </form>
                 </div>                
               </div>
@@ -183,7 +183,7 @@
         <footer class="row border"></footer>        
     </div>    
     <!-- Scripts -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="assets/landing/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/landing/js/scripts.js"></script>
 </body>
 </html>
