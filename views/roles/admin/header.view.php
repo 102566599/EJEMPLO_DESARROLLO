@@ -24,27 +24,12 @@
             <aside class="col-3 border">
                 <h2>Usuarios</h2>
                 <div>
-                    <a href="modules/users/user_create.html" target="area_trabajo">Registrar Usuario</a>
+                    <a href="modules/users/user_create.html" >Registrar Usuario</a>
                 </div>
                 <div>
-                    <a href="modules/users/user_read.html" target="area_trabajo">Consultar Usuarios</a>
+                    <a href="modules/users/user_read.html" >Consultar Usuarios</a>
                 </div>
                 
             </aside>
             <!-- Área Principal -->
             <main class="col-9 border">
-                <h1>Main Principal Admin</h1>
-            </main>
-            <!-- Pie de Página -->
-        </section>
-        <footer class="row">
-            <div class="col-12 border">
-                Pie de Página
-            </div>
-        </footer>
-    </div>    
-    <!-- Scripts -->
-    <script src="assets/dashboard/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/dashboard/js/scripts.js"></script>
-</body>
-</html>
